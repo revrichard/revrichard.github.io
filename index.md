@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome
+title: root page
 ---
 ## Welcome to my blog
 Join me as I delve into old-school command-line computing  
