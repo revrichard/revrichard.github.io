@@ -1,2 +1,6 @@
 title: CLI Adventures
 theme: minima
+minima:
+  skin: dark
+  include_css:
+    - /assets/css/custom.css
