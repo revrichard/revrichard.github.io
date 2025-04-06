@@ -1,0 +1,43 @@
+/* Terminal-style retro theme */
+body {
+  background-color: #000000;
+  color: #00ff00;
+  font-family: "Courier New", monospace;
+  line-height: 1.6;
+}
+
+/* Headings: green glow */
+h1, h2, h3, h4 {
+  color: #00ff00;
+  text-shadow: 0 0 5px #00ff00;
+  font-weight: bold;
+  border-bottom: 1px dashed #00ff00;
+  padding-bottom: 0.2em;
+}
+
+/* Links */
+a {
+  color: #00ff00;
+  text-decoration: none;
+  border-bottom: 1px dashed #00ff00;
+}
+
+a:hover {
+  color: #00cc99;
+  text-shadow: 0 0 5px #00cc99;
+}
+
+/* Code blocks and inline code */
+code, pre {
+  background-color: #111;
+  color: #33ff33;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+/* Page content container */
+.page-content {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
