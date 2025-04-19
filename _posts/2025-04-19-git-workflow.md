@@ -42,28 +42,28 @@ When working on a project, the basic cycle is
 
 #### Pull (Get the latest changes)
 To make sure that changes that have been made on the remote server are reflected in the local copy, run  
-'git pull origin main'
+```git pull origin main```
 #### Edit (Make changes locally)
 Fix typos, write new posts, all that sort of thing. Git notices which files are changed.
 #### Add
 This is the phase that made me scratch my head the hardest. After editing, files must be 'staged'or marked as ready to be included. This is done with the "add" command.  
 
-'git add .'  
+```git add .```
 marks all changed files as staged
 #### Commit (save a snapshot of changes)
-'git commit -m "a message about the changes made"'  
+```git commit -m "a message about the changes made"``` 
 This tells git what has changed and why
 #### Push (upload the changes to GitHub)
-'git push origin main'  
+```git push origin main```
 makes the changes live online, and (for example) makes new blogposts appear
 
 ### Recap
 
-'git pull origin main'   --  Always start by syncing with GitHub
----> Edit your files...  
-'git add .'             -- Stage all changes
-'git commit -m "Describe your changes"'
-'git push origin main'   -- Send to GitHub
+```git pull origin main'   #  Always start by syncing with GitHub
+               #   ---> Edit your files...    
+git add .                  # Stage all changes  
+git commit -m "Describe your changes"  
+git push origin main       #  Send to GitHub```
 
 I read somewhere, but didn't understand at the time, that git is "like saving your work, only smarter, safer, and with time travel." 
 
