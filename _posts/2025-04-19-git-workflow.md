@@ -59,12 +59,13 @@ makes the changes live online, and (for example) makes new blogposts appear
 
 ### Recap
 
-```git pull origin main'   #  Always start by syncing with GitHub
-               #   ---> Edit your files...    
-git add .                  # Stage all changes  
-git commit -m "Describe your changes"  
-git push origin main       #  Send to GitHub```
+```git pull origin main   # Always start by syncing with GitHub
+                         \# edit files
+git add .              # Stage all changes
+git commit -m "Describe your changes"
+git push origin main   # Send to GitHub```
+
 
 I read somewhere, but didn't understand at the time, that git is "like saving your work, only smarter, safer, and with time travel." 
 
-I'm still not certain I understand, and I know there is an awful lot to learn. But I feel like I might be getting there. 
+I'm still not certain I understand, and I know there is an awful lot to learn. But I feel like I might be getting there.
