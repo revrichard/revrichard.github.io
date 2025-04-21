@@ -1,7 +1,7 @@
 ---
 layout: post
-title:"A small win"
-date:2025-04-21
+title: "A small win"
+date: 2025-04-21
 ---
 It won't seem like much to anyone else, but I'm feeling a bit smug this afternoon.
 
