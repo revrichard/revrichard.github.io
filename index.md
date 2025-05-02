@@ -4,6 +4,5 @@ layout: home
 permalink: /
 ---
 
-# Lorem ipsum
-
-Welcome to my blog
+# Bashful
+### hesitantly blogging while learning in the terminal
