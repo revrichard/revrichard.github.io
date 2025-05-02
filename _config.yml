@@ -2,13 +2,13 @@
 
 #google_analytics: UA-NNNNNNNN-N
 
-#header_pages:
-#  - index.md
-#  - about.md
+header_pages:
+  - index.md
+  - about.md
 
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer: 'find me on <a href="https://bsky.app/profile/richardhall.bsky.social">Bluesky</a>'
 
-#style: light # dark (default) or light
+style: dark # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
 title: Bashful
 author: Richard Hall
