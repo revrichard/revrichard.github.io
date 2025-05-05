@@ -5,6 +5,7 @@
 header_pages:
   - index.md
   - about.md
+  - contact.md
 
 footer: 
 style: dark # dark (default) or light
