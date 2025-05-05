@@ -30,22 +30,29 @@ footer { color: var(--text-color);  border-top: var(--border);  margin: 20px aut
 header { margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: left;  margin: 0; }
 footer { margin-bottom: 20px; }
-post-list-item {
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-list-item {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  margin-bottom: 0.5rem;
   align-items: baseline;
 }
 
 .post-date {
   flex: 0 0 auto;
-  width: 9ch; /* adjusts based on your date format */
+  width: 9ch; /* enough for "[ yyyy-mm-dd ]" */
 }
 
 .post-title {
   flex: 1 1 auto;
   word-break: break-word;
 }
+
 /**
  * Highlight/Markup
  */
