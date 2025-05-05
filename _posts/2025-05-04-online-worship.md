@@ -8,8 +8,7 @@ A  couple of weeks ago, I shared on [my WordPress blog](https://richardhall.onli
 
 It did. It more than worked—it became a space. A chapel. Not in the traditional sense, but something that still invited stillness, participation, and contemplation. People clicked through, prayed through, and I kept learning.
 
-Since then, I’ve taken things a step further. I’ve set up a custom url:[onlinechapel.uk](https://onlinechapel.uk). It’s now the home for these worship slides, gently animated and quietly scriptural. But what’s made the process more interesting (and at times frustrating) is that I’ve been learning
-how to build and maintain all this using the command line.  
+Since then, I’ve taken things a step further. I’ve set up a custom url:[onlinechapel.uk](https://onlinechapel.uk). It’s now the home for these worship slides, gently animated and quietly scriptural. But what’s made the process more interesting (and at times frustrating) is that I’ve been learning how to build and maintain all this using the command line.  
 
 ### Confessions of a Cleric at the Terminal
 
@@ -17,8 +16,7 @@ I didn’t grow up writing shell scripts or compiling code. My comfort zone was 
 
 So I started using Git. I learned how to push changes to GitHub from the terminal. I got a domain name and configured DNS records (with only mild panic). I used a "static site generator" and began to understand how ssh access works. Somewhere along the way I even started to understand what a “bash script” does, though I've not actually written one of my own yet.
 
-And here’s the surprising thing: the command line isn’t just a place for technical incantations—it’s oddly contemplative. You focus. You type deliberately. There are fewer distractions than a GUI, fewer shiny buttons to click. It turns out, writing code in Vim and building worship slides in markdown
-have something in common: both are about stripping things down to essentials.
+And here’s the surprising thing: the command line isn’t just a place for technical incantations—it’s oddly contemplative. You focus. You type deliberately. There are fewer distractions than a GUI, fewer shiny buttons to click. It turns out, writing code in Vim and building worship slides in markdown have something in common: both are about stripping things down to essentials.
 
 ### Sacred Simplicity
 
