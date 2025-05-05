@@ -167,3 +167,14 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 .highlight .vg { color: var(--code-color-7); } /* Name.Variable.Global */
 .highlight .vi { color: var(--code-color-7); } /* Name.Variable.Instance */
 .highlight .il { color: var(--code-color-14); } /* Literal.Number.Integer.Long */
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-list-item::before {
+  content: "> ";
+  color: #00ff00;
+  padding-right: 0.5em;
+}
