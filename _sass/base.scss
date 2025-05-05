@@ -30,7 +30,22 @@ footer { color: var(--text-color);  border-top: var(--border);  margin: 20px aut
 header { margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: left;  margin: 0; }
 footer { margin-bottom: 20px; }
+post-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: baseline;
+}
 
+.post-date {
+  flex: 0 0 auto;
+  width: 9ch; /* adjusts based on your date format */
+}
+
+.post-title {
+  flex: 1 1 auto;
+  word-break: break-word;
+}
 /**
  * Highlight/Markup
  */
