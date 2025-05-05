@@ -38,17 +38,26 @@ footer { margin-bottom: 20px; }
 }
 
 .post-list-item {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 0.75rem;
-  align-items: start;
+  display: flex;
+  align-items: flex-start;
   margin-bottom: 0.5rem;
 }
 
 .post-list-item::before {
   content: "-";
-  margin-right: 0.25rem
+  margin-right: 0.5rem;
+  color: #33ff33;
+}
 
+.post-date {
+  flex: 0 0 10ch; /* Keeps date in a fixed width column */
+  white-space: nowrap;
+}
+
+.post-title {
+  flex: 1 1 auto;
+  word-break: break-word;
+}
 /**
  * Highlight/Markup
  */
