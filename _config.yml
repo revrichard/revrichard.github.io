@@ -6,8 +6,10 @@ header_pages:
   - index.md
   - about.md
 
-footer: 'find me on <a href="https://bsky.app/profile/richardhall.bsky.social">Bluesky</a>'
-
+footer: <a
+href="https://github.com/revrichard/revrichard.github.io">View source on
+GitHub</a> | © 2025 Richard Hall — CC BY-NC-SA 4.0 unless otherwise stated
+ 
 style: dark # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
 title: Bashful
