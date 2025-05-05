@@ -12,8 +12,7 @@ Since then, I’ve taken things a step further. I’ve set up a custom url:[onli
 
 ### Confessions of a Cleric at the Terminal
 
-I have to admit that this is not coming naturally. I am much more
-comfortable with GUIs than a command line. Every computer I've used seriously since the mid-1980s has had one. I don't have any nostalgic hankering for terminal windows with blinking cursors. But when I started thinking more seriously about how this project could live independently, outside of commercial platforms, without unnecessary clutter or distractions, I realised I needed to understand the tools behind the screen.
+I have to admit that this is not coming naturally. I am much more comfortable with GUIs than a command line. Every computer I've used seriously since the mid-1980s has had one. I don't have any nostalgic hankering for terminal windows with blinking cursors. But when I started thinking more seriously about how this project could live independently, outside of commercial platforms, without unnecessary clutter or distractions, I realised I needed to understand the tools behind the screen.
 
 So I started using Git. I learned how to push changes to GitHub from the terminal. I got a domain name and configured DNS records (with only mild panic). I used a "static site generator" and began to understand how ssh access works. Somewhere along the way I even started to understand what a “bash script” does, though I've not actually written one of my own yet.
 
