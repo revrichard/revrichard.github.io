@@ -31,6 +31,15 @@ header { margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: left;  margin: 0; }
 footer { margin-bottom: 20px; }
 
+.post-content {
+  max-width: 60ch;         /* Ideal for readability */
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.6;
+  word-break: normal;
+  white-space: normal;
+}
+
 .post-list {
   list-style: none;
   padding-left: 0;
