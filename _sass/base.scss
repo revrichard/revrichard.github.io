@@ -30,14 +30,16 @@ footer { color: var(--text-color);  border-top: var(--border);  margin: 20px aut
 header { margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: left;  margin: 0; }
 footer { margin-bottom: 20px; }
+
 .post-list {
   list-style: none;
   padding-left: 0;
 }
 
 .post-list-item {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.5rem;
   align-items: baseline;
   margin-bottom: 0.5rem;
 }
@@ -49,13 +51,14 @@ footer { margin-bottom: 20px; }
 }
 
 .post-date {
-  flex: 0 0 10ch;
+  white-space: nowrap;
 }
 
 .post-title {
-  flex: 1 1 auto;
   word-break: break-word;
 }
+
+
 /**
  * Highlight/Markup
  */
