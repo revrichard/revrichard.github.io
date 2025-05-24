@@ -5,27 +5,17 @@ date: 2025-05-24
 ---
 ### I'm still here
 
-I haven't posted anything lately, but I'm still beavering away at the
-command line! I took delivery of some Raspberry Pi boards and boxes, so
-I've been having some fun (and frustration!) with them. I'll write about
-that another time.
+I haven't posted anything lately, but I'm still beavering away at the command line! I took delivery of some Raspberry Pi boards and boxes, so I've been having some fun (and frustration!) with them. I'll write aboutthat another time.
 
 My theme today is Video.
 
-I'm no sort of video expert. I can sort of use OpenShot to get something
-done, but I'm not filled with enthusiasm by the process. Until now, I've
-just accepted that the output is the output, kind of take it or leave
-it. But when I produced a file of 170MB that I needed to put online, I
-realised I had to fill a gap in my knowledge.
+I'm no sort of video expert. I can sort of use OpenShot to get something done, but I'm not filled with enthusiasm by the process. Until now, I've just accepted that the output is the output, kind of take it or leave it. But when I produced a file of 170MB that I needed to put online, I realised I had to fill a gap in my knowledge.
 
 That led me to discover the command `ffmpeg`.
 
-It turns out, you can make video files smaller in the terminal. Who
-knew!? It looks more complicated than doing something in a GUI editor,
-but looks are deceptive - I found it to be faster and easier.
+It turns out, you can make video files smaller in the terminal. Who knew!? It looks more complicated than doing something in a GUI editor, but looks are deceptive - I found it to be faster and easier.
 
-For my future reference (pretty sure no one else is reading this!),
-here's the command I used and the reasoning behind it:
+For my future reference (pretty sure no one else is reading this!), here's the command I used and the reasoning behind it:
 
 `ffmpeg -i input.mp4 -vcodec libx264 -crf 28 -preset veryfast -acodec aac -b:a 96k output.mp4` 
 
